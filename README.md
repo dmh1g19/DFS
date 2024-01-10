@@ -26,12 +26,12 @@ This system draws inspiration from seminal works in distributed systems, alignin
 
 ### Prerequisites
 - Java Development Kit (JDK) installed on your system.
--  ```javac *.java```
 
 ### Compiling the Project
 1. Navigate to the project directory.
 2. Compile the Java files using the Java compiler
-3. ```java Controller <controller-port> <R> <timeout> <rebalance-period>```
+3. ```javac *.java```
+4. ```java Controller <controller-port> <R> <timeout> <rebalance-period>```
 
 ### Running the System
 - **Controller**: Start the Controller first. It will manage the Dstores and handle client requests.
