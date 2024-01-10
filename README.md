@@ -26,8 +26,7 @@ This system draws inspiration from seminal works in distributed systems, alignin
 
 ### Prerequisites
 - Java Development Kit (JDK) installed on your system.
-- 
-```javac *.java```
+-  ```javac *.java```
 
 ### Compiling the Project
 1. Navigate to the project directory.
