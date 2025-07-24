@@ -63,6 +63,8 @@ This system draws inspiration from seminal works in distributed systems, alignin
 
 This setup ensures a scalable and distributed environment, allowing you to test and interact with the system across a network of multiple devices.
 
+#
+
 ### Details of the file storage operation
 
 ![Screenshot](rebalanceOperation.png)
