@@ -63,6 +63,25 @@ This system draws inspiration from seminal works in distributed systems, alignin
 
 This setup ensures a scalable and distributed environment, allowing you to test and interact with the system across a network of multiple devices.
 
+## Example
+
+Run the controller first:
+```
+java Controller 8080 3 40000 50000
+```
+
+Run some dstores (if running on the same server they each must have a different port):
+```
+java Dstore 1234 8080 dstore1
+java Dstore 7891 8080 dstore2
+java Dstore 2345 8080 dstore3
+```
+
+Run the client (all operations are sent through here to the controller):
+```
+java Client 8080 40000
+```
+
 #
 
 ### Details of the file storage operation
