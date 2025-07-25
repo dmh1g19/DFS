@@ -1,3 +1,5 @@
+package client;
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
@@ -11,6 +13,11 @@ import java.net.InetAddress;
 import java.net.Socket;
 import java.net.SocketTimeoutException;
 import java.nio.file.FileAlreadyExistsException;
+
+import exceptions.FileDoesNotExistException;
+import exceptions.NotEnoughDstoresException;
+import utils.Loggert;
+import utils.Loggert.LoggingType;
 
 public class Client {
     private final int a;

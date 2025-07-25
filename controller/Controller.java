@@ -1,3 +1,5 @@
+package controller;
+
 import java.io.*;
 import java.net.*;
 import java.util.ArrayList;
@@ -5,7 +7,10 @@ import java.util.Set;
 import java.util.Timer;
 import java.util.concurrent.ConcurrentHashMap;
 
-class Controller {
+import utils.FileManager;
+import utils.Rebalance;
+
+public class Controller {
 
     private ServerSocket server;
     private Socket socket;

@@ -1,7 +1,5 @@
+package exceptions;
 
-/*
- * Decompiled with CFR 0.150.
- */
 import java.io.IOException;
 
 public class FileAlreadyExistsException

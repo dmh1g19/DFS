@@ -1,3 +1,7 @@
+package client;
+
+import utils.Loggert;
+
 public class ClientLogger
 extends Loggert {
     private static ClientLogger a = null;

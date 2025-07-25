@@ -1,3 +1,5 @@
+package utils;
+
 public class Protocol {
 
     // messages sent by Clients

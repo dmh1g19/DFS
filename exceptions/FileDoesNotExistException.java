@@ -1,11 +1,8 @@
+package exceptions;
 
-/*
- * Decompiled with CFR 0.150.
- */
 import java.io.IOException;
 
-public class FileDoesNotExistException
-        extends IOException {
+public class FileDoesNotExistException extends IOException {
     private static final long serialVersionUID = 3234056968693564846L;
 
     public FileDoesNotExistException(String filename) {

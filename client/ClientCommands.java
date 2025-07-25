@@ -1,3 +1,5 @@
+package client;
+
 public enum ClientCommands {
     STORE_TO,
     ACK,

@@ -1,6 +1,5 @@
-/*
- * Decompiled with CFR 0.150.
- */
+package exceptions;
+
 import java.io.IOException;
 
 public class NotEnoughDstoresException

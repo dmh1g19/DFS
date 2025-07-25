@@ -1,7 +1,13 @@
+package client;
+
 import java.io.File;
 import java.io.IOException;
 import java.util.Random;
 import java.util.Scanner;
+
+import exceptions.NotEnoughDstoresException;
+import utils.Loggert;
+import utils.Loggert.LoggingType;
 
 public class ClientMain {
 	
